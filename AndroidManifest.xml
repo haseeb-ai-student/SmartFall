@@ -1,0 +1,4 @@
+<activity android:name=".ContactsActivity" android:exported="false" />
+<activity android:name=".HistoryActivity" android:exported="false" />
+<activity android:name=".CountdownActivity" android:exported="false" />
+<activity android:name=".SettingsActivity" android:exported="false" />
