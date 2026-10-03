@@ -24,7 +24,7 @@ jobs:
         gradle-version: '8.5'
 
     - name: Build Debug APK
-      run: gradle assembleDebug
+      run: gradle assembleDebug --stacktrace
       working-directory: .
 
     - name: Upload APK Artifact
